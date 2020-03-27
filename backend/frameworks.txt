@@ -1,0 +1,51 @@
+----------------------------------------------------------------------------------------------------------
+
+nodemon -> caso aja alguma alteração, atualize a aplicação
+express -> dar uma força para subir a aplicação; (é um micro)
+knex -> npx knex init (inicializar)
+sqlite3 -> db
+cors -> quem pode acessas a aplicação
+
+
+Rotas -> 
+    Sao os recursos. "/users", "/"
+----------------------------------------------------------------------------------------------------------
+Metodos Http:
+
+    GET: buscar informações no back-end;
+pode ser uma listagem , um dado de qualquer do banco, um metodo do back-end para buscar o id;
+
+    POST: criar uma informação, verificar se um dado existe ou nao (autenticar um login por exemplo);
+
+    PUT: alterar uma informação no back-end
+
+    DELETE: deletar uma informação do back-end;
+
+
+----------------------------------------------------------------------------------------------------------
+
+TIPO DE PARAMETROS]
+É um tipo de busca;
+
+QUERY PARAMS: São PARAMETROS nomeados enviados na rota apos o simbolo de interroção que servem para: 
+filtros, paginação, etc
+exemplo: "localhost:8080/users?nome=Otto"
+
+ROUTE PARAMS:  parametros para identificar recursos
+get("/users/:id)
+exemplo: "localhost:8080/users/1"
+
+REQUEST BODY: Corpo da requisição, utilizado para criar ou alterar recursos;
+
+-----------------------------------------------------------------------------------------------------------
+BANCO DE DADOS
+mysql, postgrest, SQlite, oracle;
+
+noSQL: mongoDB, couchdb, etc;
+
+-----------------------------------------------------------------------------------------------------------
+
+instalação do banco:
+
+driver: pacote oficial ... usar codigo db;
+query builder: usar javascript para realizar ações no db;
