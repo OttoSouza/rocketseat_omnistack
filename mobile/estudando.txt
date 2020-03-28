@@ -1,0 +1,21 @@
+Nao tem semantica
+    View = div, footer, section, aside, container
+    Text = qualquer tipo de texto; strong, h1, h2, p
+
+Todos os elementos dos react native ja sao display flex;
+
+
+
+-----------------------------------------------------------
+frameworks:
+
+routes: 
+        https://reactnavigation.org/docs/getting-started
+
+------------------------------------------------------------
+
+FlaList -> usado para scroll;
+    tem um data  receber os dados;
+    render item, para renderizar na tela, 
+    keyExtractor é o identificador de cada item, tem que ser String; no caso se for um lista, passa o valor do index dela;
+    
