@@ -1,10 +1,14 @@
 ----------------------------------------------------------------------------------------------------------
 
-nodemon -> caso aja alguma alteração, atualize a aplicação
-express -> dar uma força para subir a aplicação; (é um micro)
-knex -> npx knex init (inicializar)
-sqlite3 -> db
-cors -> quem pode acessas a aplicação
+nodemon -> caso aja alguma alteração, atualize a aplicação;
+express -> dar uma força para subir a aplicação; (é um micro);
+knex -> npx knex init (inicializar);
+sqlite3 -> db;
+cors -> quem pode acessas a aplicação;
+celebrate -> validações, integra o join com express. fica nas rotas;
+jest -> realização de teste;
+cross-env -> verifica em qual ambiente esta sendo desenvolvido; 
+supertest ->  
 
 
 Rotas -> 
